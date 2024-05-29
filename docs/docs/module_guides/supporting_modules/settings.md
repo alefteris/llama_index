@@ -76,7 +76,7 @@ Settings.tokenizer = tiktoken.encoding_for_model("gpt-3.5-turbo").encode
 # open-source
 from transformers import AutoTokenizer
 
-Settings.tokenzier = AutoTokenizer.from_pretrained(
+Settings.tokenizer = AutoTokenizer.from_pretrained(
     "mistralai/Mixtral-8x7B-Instruct-v0.1"
 )
 ```
